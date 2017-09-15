@@ -1,0 +1,52 @@
+.chat {
+    margin: 20px;
+    width: 442px;
+}
+
+.chat-header {
+    background-color: #ddd;
+}
+
+.chat-header p {
+    height: 24px;
+    line-height: 24px;
+    margin: 0;
+    text-align: center;
+}
+
+.chat-body {
+    background-color: #eee;
+    padding: 20px;
+}
+
+.chat-room {
+    min-height: 200px;
+    width:400px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.chat-coding {
+
+}
+
+.chat-send {
+    margin: 10px 0;
+}
+
+.chat-input {
+    width: 75%;
+}
+
+.chat-btn {
+
+}
+
+.chat-private-tips {
+    font-size: 12px;
+}
+
+.chat-leave-room button {
+    font-size: 14px;
+    color: #183ca6;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ChatRoom</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <div class="chat">
+            <div class="chat-header">
+                <p>聊天室聊天界面</p>
+            </div>
+            <div class="chat-body">
+                <div id="chat-room" class="chat-room"></div>
+                <div id="coding" class="chat-coding"></div>
+                <div class="chat-send">
+                    <input id="message" class="chat-input"/>
+                    <button id="send_btn" class="chat-btn">发送群聊消息</button>
+                </div>
+                <div class="chat-send">
+                    <div>
+                        <input id="private_message" class="chat-input"/>
+                        <button id="send_private_btn" class="chat-btn">发送私聊消息</button>
+                    </div>
+                    <div>
+                        <span class="chat-private-tips">选择私聊人员：</span>
+                        <select id="name_list"></select>
+                    </div>
+                </div>
+                <div class="chat-leave-room">
+                    <button id="leave-room">退出聊天室</button>
+                </div>
+            </div>
+        </div>
+
+    <script src="js/lib/socket.io.js"></script>
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    </body>
+</html>
+
+
+

@@ -1,0 +1,9 @@
+功能介绍：通过express+socket.io技术，简单实现群里、私聊的简单文本聊天功能。
+
+1. node环境配置
+2. 安装express框架：
+    npm install express
+3. 安装socket.io：
+    npm install socket.io
+4. 写好代码，然后启动server:
+    node server.js
